@@ -9,8 +9,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
     },
     date: "2022-2024",
     location: "Nitte , Karkala",
-    description:
-      "Completed my MCA with 7.02 CGPA",
+    description: "Completed my MCA with 7.02 CGPA",
   },
   {
     title: "Bachelor Of Computer Applications",

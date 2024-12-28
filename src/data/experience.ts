@@ -11,7 +11,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     location: "Bengaluru",
     description: "Reactjs and Nextjs Web App development",
   },
-  
+
   {
     title: "Full Stack Developer",
     organisation: {
@@ -22,5 +22,4 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     location: "Kankanady",
     description: "Reactjs and Nextjs Web App development",
   },
-
 ];

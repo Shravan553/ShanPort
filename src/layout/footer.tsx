@@ -1,4 +1,4 @@
-import ContactButton from "@/components/contact-form/contact-button";
+// import ContactButton from "@/components/contact-form/contact-button";
 import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
@@ -20,9 +20,7 @@ export default function Footer() {
           <br />
           <span>gmail.com</span>
         </a>
-        <div className="flex justify-center">
-          <ContactButton />
-        </div>
+       
       </div>
       <div className="flex w-full flex-col items-center justify-between gap-8 text-center  md:flex-row md:justify-between lg:mx-auto lg:max-w-7xl">
         <span className="text-foreground">©2024 Shravan Gujaran</span>

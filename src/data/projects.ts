@@ -37,12 +37,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
     image: {
-      LIGHT:  "/images/projects/covidTracker.webp",
+      LIGHT: "/images/projects/covidTracker.webp",
       DARK: "/images/projects/covidTrackerMap.webp",
-
-      
-       
-        
     },
   },
 ];
@@ -91,10 +87,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "My portfolio",
     favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/portf1.png",
-      "/images/projects/portf.png",
-    ],
+    imageUrl: ["/images/projects/portf1.png", "/images/projects/portf.png"],
     description:
       "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
     sourceCodeHref: "https://github.com/Shravan553/ShanPort",
@@ -119,23 +112,16 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     imageUrl: [
       "/images/projects/Countrydark.png",
       "/images/projects/Countrylight.png",
-     
     ],
-    description:
-      "Get country info using api",
+    description: "Get country info using api",
     sourceCodeHref: "https://github.com/Shravan553/Country",
     liveWebsiteHref: "https://countryapi12.vercel.app",
   },
   {
     name: "Three Js drawing App",
     favicon: "/images/projects/logos/drawing.ico",
-    imageUrl: [
-      "/images/projects/er1.png",
-      "/images/projects/er.png",
-     
-    ],
-    description:
-      "Draw shapes using three js tech and view in 3D",
+    imageUrl: ["/images/projects/er1.png", "/images/projects/er.png"],
+    description: "Draw shapes using three js tech and view in 3D",
     sourceCodeHref: "https://github.com/Shravan553/3DDrawThreeJS",
     liveWebsiteHref: "https://shan3d.vercel.app",
   },
