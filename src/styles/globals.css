@@ -13,6 +13,7 @@
     --accent-foreground: 240 5.9% 10%;
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
+    --shimmer: linear-gradient(90deg, #ffffff, #e5e5e5, #d4d4d4, #f2f2f2);
   }
 
   .dark {
@@ -25,12 +26,22 @@
     --accent-foreground: 0 0% 98%;
     --muted: 240 3.7% 15.9%;
     --muted-foreground: 240 5% 64.9%;
+    --shimmer: linear-gradient(90deg, #fb0404, #0ce53f, #808080, #0b2aa5); /* Dark shimmer */
   }
 
   * {
     @apply border-border;
   }
+
   body {
     @apply min-h-screen bg-background text-foreground;
+  }
+
+  /* Shimmer Effect for Text */
+  .text-shimmer {
+    background: var(--shimmer);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
 }
